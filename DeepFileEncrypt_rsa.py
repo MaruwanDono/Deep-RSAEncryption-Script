@@ -118,6 +118,6 @@ def explore(start, origin, LimitDir, lock_explore):
 if __name__ == "__main__":
 	#RSA_encryption('divine_comedy.pdf')
 	#deep(os.getcwd(), os.getcwd())
-	LimitDir = '/home/wa/Desktop'
+	LimitDir = '/home/username/Desktop'
 	explore(os.getcwd(), os.getcwd(), LimitDir, False)
 	print('main')
